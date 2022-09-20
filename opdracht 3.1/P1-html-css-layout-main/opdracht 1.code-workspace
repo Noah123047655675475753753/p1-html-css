@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../../../opdracht 1"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../oefenen"
+		},
+		{
+			"path": "../../opdracht ouderavond"
+		},
+		{
+			"path": "../../opdracht3.2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "opdracht3.2"
+	}
+}
