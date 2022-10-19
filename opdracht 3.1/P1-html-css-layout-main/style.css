@@ -5,6 +5,7 @@
 }
 html {
   font-size: 62.5%;
+  background-color: red;
 }
 body {
   font-family: "Goldman", cursive;
@@ -36,4 +37,43 @@ nav a {
 }
 nav img {
   width: 5vw;
+}
+
+
+
+ul {
+  list-style-type: none;
+  background-color:rgb(128, 128, 128);
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 0,8rem 1rem;
+  display: inline-block;
+}
+
+.dropdown-content {
+  position: absolute
+  background-color: #E9E9E9;
+  min-widht: 20vw;
+  box-shadow: 0rem 0.5rem 1rem 0rem (0,0,0,0,2);
+z-index: 1;
+}
+
+.dropdown-content a {
+  color: gray;
+  padding: 0,8rem 1rem;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
