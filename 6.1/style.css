@@ -5,13 +5,9 @@
 }
 
 .flex-container {
-    background: gray
-}
-
-.flex-container:after {
-    clear: both;
-    content: '';
-    display: block;
+    display: flex;
+    background-color: #b8b8b8;
+    justify-content: center;
 }
 
 .item1 {
@@ -19,8 +15,7 @@
     height: 200px;
     background: blue;
     margin: 10px;
-    color: aliceblue;
-    float: left;
+    color: #fff;
 }
 
 .item2 {
@@ -28,8 +23,7 @@
     height: 200px;
     background: black;
     margin: 10px;
-    color: aliceblue;
-    float: left;
+    color: #fff;
 }
 
 .item3 {
@@ -37,8 +31,7 @@
     height: 200px;
     background: red;
     margin: 10px;
-    color: aliceblue;
-    float: left;
+    color: #fff;
 }
 
 .item4 {
@@ -46,6 +39,5 @@
     height: 200px;
     background: green;
     margin: 10px;
-    color: aliceblue;
-    float: left;
+    color: #fff;
 }
