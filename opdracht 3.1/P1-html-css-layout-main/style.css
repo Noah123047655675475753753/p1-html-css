@@ -83,7 +83,8 @@ li a {
 }
 
 .dropdown:hover .dropdown-content{
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 
 footer {
